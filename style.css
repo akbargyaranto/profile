@@ -60,18 +60,9 @@ body {
   
   .bio {
     margin-top: 20px;
-    color:white;
-    margin-bottom:0;
+    color: white;
   }
 
-
-
- .br-bio {
-  margin-bottom: 10px;
-  margin-top:0;
- }
-
-  
   .links a {
     display: block;
     margin-bottom: 10px;
