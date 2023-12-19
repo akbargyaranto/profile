@@ -67,13 +67,13 @@ body {
     display: block;
     margin-bottom: 10px;
     text-decoration: none;
-    color: #dc143c;
+    color: #bf00ff;
     font-weight: bold;
   }
   
   .links a:hover {
     text-decoration: none;
-    color: #a0203a;
+    color: #8f14b8;
   }
   
   /* Optional: Add more styles as needed */
