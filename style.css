@@ -61,7 +61,16 @@ body {
   .bio {
     margin-top: 20px;
     color:white;
+    margin-bottom:0;
   }
+
+
+
+ .br-bio {
+  margin-bottom: 10px;
+  margin-top:0;
+ }
+
   
   .links a {
     display: block;
