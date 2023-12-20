@@ -1,84 +1,107 @@
 body {
-    font-family: 'Kanit';
-    margin: 0;
-    background-color: #191919;
-  }
- 
+  font-family: "Kanit";
+  margin: 0;
+  padding: 0;
+  background-color: #191919;
+}
 
-  .profile-container {
-    max-width: 800px;
-    margin: 0px auto;
-    background-color: #191919;
-    /* border: 1px solid #ddd; */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-    padding-bottom: 10px;
-  }
-  
-  .cover-photo {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .cover-image {
-    width: 100%;
-    height:200px;
-    /* height: auto; */
-    display: block;
-  }
-  
-  .profile-details {
-    padding: 20px;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .profile-picture {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    object-fit: cover;
-    border: 3px solid white;
-  }
-  
-  .name {
-    font-size: 25px;
-    margin: 0;
-    color:white;
-  }
-  
-  .username {
-    color:white;
-    font-weight:lighter;
-    margin:0;
-  }
-
-  .location {
-    color: white;
-  }
-  
-  .bio {
-    margin-top: 20px;
-    color: white;
-  }
-
-  .links a {
-    display: block;
-    margin-bottom: 10px;
-    text-decoration: none;
-    color: #bf00ff;
-    font-weight: bold;
-  }
-  
-  .links a:hover {
-    text-decoration: none;
-    color: #8f14b8;
-  }
-  
-  /* Optional: Add more styles as needed */
-  
+.fa-instagram {
+  color: #ff69b4; /* Warna biru muda Instagram */
+  transition: color 0.3s ease-in-out; /* Terapkan efek transisi pada perubahan warna */
+}
 
 
- 
-  
+.fa-spotify {
+  color: lightgreen;
+}
+
+.fa-twitter {
+  color:  lightblue;
+}
+
+.fa-github {
+color:white;
+}
+
+.cover-image {
+  width: 100%; /* Lebar gambar 100% dari parent container */
+  height: auto; /* Tinggi gambar menyesuaikan proporsi aslinya */
+  object-fit: cover; /* Menjaga aspek rasio dan menutupi seluruh container */
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: 0px auto;
+  background-color: #191919;
+  /* border: 1px solid #ddd; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.cover-photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.cover-image {
+  width: 100%;
+  height: 200px;
+  /* height: auto; */
+  display: block;
+}
+
+.profile-details {
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+.name {
+  font-size: 25px;
+  margin: 0;
+  color: white;
+}
+
+.username {
+  color: white;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.location {
+  color: white;
+}
+
+.bio {
+  margin-top: 20px;
+  color: white;
+}
+
+.links a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+span {
+  padding-left: 10px;
+}
+
+.links a:hover {
+  text-decoration: none;
+  color: #8f14b8;
+}
+
+/* Optional: Add more styles as needed */
