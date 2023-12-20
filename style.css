@@ -10,17 +10,16 @@ body {
   transition: color 0.3s ease-in-out; /* Terapkan efek transisi pada perubahan warna */
 }
 
-
 .fa-spotify {
   color: lightgreen;
 }
 
 .fa-twitter {
-  color:  lightblue;
+  color: lightblue;
 }
 
 .fa-github {
-color:white;
+  color: white;
 }
 
 .cover-image {
@@ -93,13 +92,19 @@ color:white;
   text-decoration: none;
   color: white;
   font-weight: bold;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 span {
-  padding-left: 10px;
+  padding-left: 7px;
+}
+
+i {
+  padding-left:25px;
 }
 
 .links a:hover {
+  transform: scale(1.2);
   text-decoration: none;
   color: #8f14b8;
 }
