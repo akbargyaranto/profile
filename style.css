@@ -103,10 +103,33 @@ i {
   padding-left:25px;
 }
 
-.links a:hover {
+
+.links a.instagram:hover {
   transform: scale(1.2);
   text-decoration: none;
-  color: #8f14b8;
-}
+  color:  #ff69b4;
+} 
 
-/* Optional: Add more styles as needed */
+.links a.spotify:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+  color:lightgreen;
+} 
+
+.links a.twitter:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+  color: lightblue;
+} 
+
+.links a.github:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+  color: grey;
+} 
+
+.links a.threads:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+  color:grey;
+} 
