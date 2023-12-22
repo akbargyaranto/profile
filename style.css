@@ -22,11 +22,6 @@ body {
   color: white;
 }
 
-.cover-image {
-  width: 100%; /* Lebar gambar 100% dari parent container */
-  height: auto; /* Tinggi gambar menyesuaikan proporsi aslinya */
-  object-fit: cover; /* Menjaga aspek rasio dan menutupi seluruh container */
-}
 
 .profile-container {
   max-width: 800px;
@@ -43,12 +38,14 @@ body {
   overflow: hidden;
 }
 
+
 .cover-image {
   width: 100%;
-  height: 200px;
-  /* height: auto; */
+  height: auto;
+  object-fit: cover;
   display: block;
 }
+
 
 .profile-details {
   padding: 20px;
@@ -80,6 +77,13 @@ body {
 .location {
   color: white;
 }
+.red-white-text {
+  color: red; /* Ubah warna teks menjadi merah */
+  background-color: white; /* Ubah warna latar belakang menjadi putih */
+  padding: 0 10px; /* Padding untuk memberi ruang di sekitar teks */
+  border-radius: 10px; /* Memberikan bentuk rounded pada elemen */
+}
+
 
 .bio {
   margin-top: 20px;
