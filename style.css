@@ -56,7 +56,7 @@ body {
   border-radius: 50%;
   margin-bottom: 10px;
   object-fit: cover;
-  /* border: 3px solid white; */
+  border: 3px solid white;
 }
 
 .name {
@@ -80,7 +80,7 @@ body {
   color: red; /* Ubah warna teks menjadi merah */
   background-color: white; /* Ubah warna latar belakang menjadi putih */
   padding: 0 10px; /* Padding untuk memberi ruang di sekitar teks */
-  border-radius: 10px; /* Memberikan bentuk rounded pada elemen */
+  border-radius: 20px; /* Memberikan bentuk rounded pada elemen */
   text-decoration:none;
 }
 
