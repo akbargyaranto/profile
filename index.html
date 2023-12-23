@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Hind&family=Kanit:wght@300&display=swap"
@@ -18,13 +19,15 @@
 </head>
 
 <body>
+
   <div class="profile-container">
     <div class="banner">
-      <img src="bg5.gif" alt="Cover Photo" class="cover-image" />
+      <img src="img-gif/bg5.gif" alt="Cover Photo" class="cover-image" />
     </div>
+
     <div class="cover-photo"></div>
     <div class="profile-details">
-      <img src="kucingmangap.gif" alt="Profile Picture" class="profile-picture" />
+      <img src="img-gif/kucingmangap.gif" alt="Profile Picture" class="profile-picture" />
       <h1 class="name">stillness.flux</h1>
       <h5 class="username">akbargyaranto</h5>
       <p class="location"><a
@@ -36,6 +39,21 @@
           jangan pedulikan orang-orang yang bodoh." (QS Al-A'raf ayat 199).
         </p>
       </div>
+
+
+      <!-- MUSIC -->
+      <div class="audio-player">
+        <div class="audio-controls" id="audio-controls">
+          <i class="fas fa-play play-icon"></i>
+          <i class="fas fa-pause pause-icon" style="display: none;"></i>
+        </div>
+        <audio id="audio" controls loop>
+          <source src="Music/Maroon 5 - One More Night (Official Music Video).mp3" type="audio/mp3">
+          Browser Anda tidak mendukung elemen audio.
+        </audio>
+      </div>
+
+      <!-- MUSIC END -->
 
       <div class="links">
         <a href="https://www.instagram.com/stillness.flux/?hl=en" target="_blank" class="instagram"><i
@@ -53,6 +71,7 @@
   <footer>
     <p>&copy;2023 stillness.flux. Hak cipta dilindungi. Terakhir diperbarui: Desember 2023</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>

@@ -70,7 +70,7 @@ body {
 @keyframes fadeInUp {
   from {
     opacity: 0;
-   transform: translateY(20px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
@@ -86,24 +86,23 @@ body {
 
 footer {
   color: white;
-  text-align:center;
+  text-align: center;
   background-color: transparent;
-  margin-top:10px;
-  font-size:15px;
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 .location {
   color: white;
 }
 
-
 .flag {
   color: red; /* Ubah warna teks menjadi merah */
   background-color: white; /* Ubah warna latar belakang menjadi putih */
   padding: 0 10px; /* Padding untuk memberi ruang di sekitar teks */
   border-radius: 20px; /* Memberikan bentuk rounded pada elemen */
-  text-decoration:none;
-  font-weight:bold;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .bio {
@@ -113,6 +112,8 @@ footer {
 
 .links a {
   display: block;
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
   text-decoration: none;
   color: white;
@@ -157,3 +158,48 @@ i {
   text-decoration: none;
   color: grey;
 }
+
+/* AUDIO */
+
+
+    .audio-player {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: white;
+      border-radius: 50%;
+      padding: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .audio-player:hover {
+      transform: scale(1.1);
+    }
+
+    .play-icon {
+      font-size: 24px;
+      color: #191919;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .pause-icon {
+      font-size: 24px;
+      color: #191919;
+      transition: color 0.3s ease-in-out;
+    }
+
+    .audio-player:hover .play-icon {
+      color: #ff4081;
+    }
+
+    .audio-player:hover .pause-icon {
+      color: #ff4081;
+    }
+
+    audio {
+      display: none;
+    }
