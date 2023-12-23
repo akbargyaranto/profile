@@ -57,6 +57,7 @@ body {
   margin-bottom: 10px;
   object-fit: cover;
   border: 3px solid white;
+  background-color: pink;
 }
 
 .name {
@@ -96,7 +97,7 @@ footer {
 }
 
 
-.red-white-text {
+.flag {
   color: red; /* Ubah warna teks menjadi merah */
   background-color: white; /* Ubah warna latar belakang menjadi putih */
   padding: 0 10px; /* Padding untuk memberi ruang di sekitar teks */
