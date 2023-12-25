@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #191919;
+  color: white;
 }
 
 .fa-instagram {
@@ -25,7 +26,7 @@ body {
 .profile-container {
   max-width: 800px;
   margin: 0px auto;
-  background-color: #191919;
+  /* background-color: #191919; */
   /* border: 1px solid #ddd; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -110,11 +111,12 @@ footer {
   color: white;
 }
 
+
 .links a {
   display: block;
-  display: flex;
   align-items: center;
   margin-bottom: 10px;
+  margin-right:230px;
   text-decoration: none;
   color: white;
   font-weight: bold;

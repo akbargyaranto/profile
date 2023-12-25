@@ -1,7 +1,3 @@
-
-
-// script.js
-
 function dragStart(event) {
   event.dataTransfer.setData("text/plain", "dragging");
 }
@@ -18,8 +14,6 @@ function drop(event) {
 function allowDrop(event) {
   event.preventDefault();
 }
-
-// script.js
 
 function drop(event) {
   event.preventDefault();
