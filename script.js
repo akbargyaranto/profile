@@ -7,7 +7,7 @@ function drop(event) {
   const data = event.dataTransfer.getData("text/plain");
   if (data === "dragging") {
     console.log("Drop event triggered!");
-    // Implementasikan logika sesuai kebutuhan (misalnya: membuka panel kontrol audio)
+   
   }
 }
 
